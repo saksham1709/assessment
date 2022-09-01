@@ -1,0 +1,135 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem 0 2rem;
+}
+.service-card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem 0;
+}
+.service-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.card-separator{
+    width: 2px;
+    background-color: black;
+    height: 260px;
+    margin: 0 20px;
+}
+.srevice-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.service-cards img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.service-cards h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.service-cards p{
+    font-size: 1.2rem;
+    line-height: 1.1;
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+.service-cards p a{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 850px) {
+    .service-card-container{
+        flex-direction: column;
+    }
+    .card-separator{
+        width: 100%;
+        height: 1px;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .services h1{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .services h1{
+        font-size: 18px
+    }
+}
+
+
+/* caraousel */
+.logo-slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ecf2f6 ;
+    padding: 3rem 6rem;
+}
+.logo-slider h1{
+    margin-bottom: 2rem;
+}
+
+/* FOA */
+
+.foa-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.foa-player{
+    flex: 2;
+}
+.foa-info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foa-text1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 3rem 1.5rem;
+}
+.foa-text2{
+    background-color: #0c7d9f;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 3rem 1.5rem;
+}
+.separator{
+    width: 20%;
+    height: 1px;
+    background-color: black;
+}
+.foa-text2{
+    color: white;
+}
+.foa-text2 .separator{
+    background-color: white;
+}
+.text h1{
+    margin-bottom: 1.5rem;
+}
+.text h4{
+    margin-bottom: 15px;
+}
